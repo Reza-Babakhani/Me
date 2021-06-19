@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Reza-Babakhani/Me/issues"
   },
-  "homepage": "https://github.com/Reza-Babakhani/Me#readme"
+  "homepage": "https://github.com/Reza-Babakhani/Me#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0",
+    "sweetalert2": "^11.0.17"
+  }
 }
