@@ -99,3 +99,35 @@ body {
 }
 
 /*---------------------------------*/
+body {
+	background-image: url("../img/r/bg-min.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section-card {
+	border-radius: 15px;
+	margin: 80px 0;
+	padding: 15px;
+	border: 4px black solid;
+	background-color: whitesmoke;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../img/r/section-bg.jpg");
+}
+
+.section-info .nav-link {
+	color: black;
+	font-weight: 800;
+	transition: all;
+	transition-duration: 0.3s;
+}
+.main-nav {
+	height: 70px;
+}
+.section-info .nav-link:hover {
+	transition: all;
+	transition-duration: 0.3s;
+	font-size: 18px;
+}
