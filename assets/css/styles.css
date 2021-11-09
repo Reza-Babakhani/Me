@@ -87,20 +87,15 @@
 	font-family: "Vazir", sans-serif !important;
 }
 
-.primary-cl-bg {
-	background-color: #1b2b38 !important;
-	color: whitesmoke !important;
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+	display: none;
 }
 
-.secondary-cl-bg {
-	background-color: #3f3e57 !important;
-	color: whitesmoke !important;
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
 
-.primary-cl {
-	color: #1b2b38 !important;
-}
-
-.secondary-cl {
-	color: #3f3e57 !important;
-}
+/*---------------------------------*/
