@@ -108,7 +108,7 @@ body {
 
 .section-card {
 	border-radius: 15px;
-	margin: 80px 0;
+	margin: 30px 0;
 	padding: 15px;
 	border: 4px black solid;
 	background-color: whitesmoke;
@@ -132,10 +132,33 @@ body {
 	font-size: 18px;
 }
 
-.txt-name {
+.txt-name-lg {
 	font-size: 62px;
 	font-weight: 700;
 	z-index: 10;
 	overflow: visible;
 	position: relative;
+	padding-top: 150px;
+}
+
+.txt-name-md {
+	position: absolute;
+	bottom: 100;
+	left: 80;
+}
+
+.index-image-box {
+	position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+	.txt-name-lg {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.txt-name-md {
+		display: none;
+	}
 }
