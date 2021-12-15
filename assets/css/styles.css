@@ -124,10 +124,18 @@ body {
 	transition-duration: 0.3s;
 }
 .main-nav {
-	height: 70px;
+	min-height: 70px;
 }
 .section-info .nav-link:hover {
 	transition: all;
 	transition-duration: 0.3s;
 	font-size: 18px;
+}
+
+.txt-name {
+	font-size: 62px;
+	font-weight: 700;
+	z-index: 10;
+	overflow: visible;
+	position: relative;
 }
